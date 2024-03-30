@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image: url(laptop-pics/pexels-life-of-pix-7974.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+   height: 80px; 
+}
+
+nav h1{
+    float: left;
+    line-height: 50px;
+    font-size: 35px;
+    font-size: inline;
+    color: blue;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 2px;
+}
+
+nav ul li a:hover{
+    background-color: blue;
+    transition: 0.5s ease;
+
+}
+
+nav ul li .active{
+    background-color: blue;
+    border-radius: none;
+}
+
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{
+        font-size: 40px;
+        color: #fff;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+
+    .article p{
+        font-size: 18px;
+        color: white;
+        line-height: 1.5;
+        margin-bottom: 50px;  
+    }
+
+    .article .btn{
+        color: #fff;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: limegreen;
+    }
+
+    .article .btn:hover{
+background-color: blue;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap')
